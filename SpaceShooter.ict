@@ -1,0 +1,4674 @@
+{
+  "ctjsVersion": "1.2.1",
+  "notes": "/* empty */",
+  "libs": {
+    "place": {
+      "gridX": 512,
+      "gridY": 512
+    },
+    "fittoscreen": {
+      "mode": "scaleFit"
+    },
+    "mouse": {},
+    "keyboard.polyfill": {},
+    "sound.howler": {},
+    "akatemplate": {
+      "csscss": "body {\n    background: #000;\n}"
+    },
+    "keyboard": {},
+    "random": {}
+  },
+  "textures": [
+    {
+      "name": "playerShip2_blue",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        56,
+        37
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 112,
+      "imgHeight": 75,
+      "width": 112,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i771619ea-7f1b-4421-a787-5adc8fe105bd.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip2_blue.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 112,
+      "top": 0,
+      "bottom": 75,
+      "uid": "771619ea-7f1b-4421-a787-5adc8fe105bd",
+      "stripPoints": [
+        {
+          "x": 0,
+          "y": -38
+        },
+        {
+          "x": 12.5,
+          "y": -16
+        },
+        {
+          "x": 55,
+          "y": 6.5
+        },
+        {
+          "x": 37.5,
+          "y": 33.75
+        },
+        {
+          "x": 16.5,
+          "y": 30.25
+        },
+        {
+          "x": 11.5,
+          "y": 37
+        },
+        {
+          "x": -11.5,
+          "y": 36.75
+        },
+        {
+          "x": -16.25,
+          "y": 29.75
+        },
+        {
+          "x": -36.5,
+          "y": 33.5
+        },
+        {
+          "x": -55,
+          "y": 6
+        },
+        {
+          "x": -12.75,
+          "y": -15.5
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587964168412
+    },
+    {
+      "name": "playerShip1_red",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 99,
+      "imgHeight": 75,
+      "width": 99,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i627c0194-3ae1-47d7-ba6d-e1b7cf21b845.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip1_red.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 99,
+      "top": 0,
+      "bottom": 75,
+      "uid": "627c0194-3ae1-47d7-ba6d-e1b7cf21b845"
+    },
+    {
+      "name": "playerShip2_orange",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 112,
+      "imgHeight": 75,
+      "width": 112,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ie927ad2c-74b8-40df-869f-87856351f046.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip2_orange.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 112,
+      "top": 0,
+      "bottom": 75,
+      "uid": "e927ad2c-74b8-40df-869f-87856351f046"
+    },
+    {
+      "name": "ufoYellow",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        45,
+        45
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 91,
+      "imgHeight": 91,
+      "width": 91,
+      "height": 91,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i621ce996-61e3-4937-916d-fd138d5db602.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\ufoYellow.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 91,
+      "top": 0,
+      "bottom": 91,
+      "uid": "621ce996-61e3-4937-916d-fd138d5db602",
+      "r": 45,
+      "lastmod": 1587585015885
+    },
+    {
+      "name": "ufoRed",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        45,
+        45
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 91,
+      "imgHeight": 91,
+      "width": 91,
+      "height": 91,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i81e5c749-f9d8-473a-b339-4dc3146980ae.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\ufoRed.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 91,
+      "top": 0,
+      "bottom": 91,
+      "uid": "81e5c749-f9d8-473a-b339-4dc3146980ae",
+      "r": 45,
+      "lastmod": 1587585005159
+    },
+    {
+      "name": "ufoGreen",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        45,
+        45
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 91,
+      "imgHeight": 91,
+      "width": 91,
+      "height": 91,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i41281b0f-c1b0-4e8e-8753-ad2f864b4878.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\ufoGreen.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 91,
+      "top": 0,
+      "bottom": 91,
+      "uid": "41281b0f-c1b0-4e8e-8753-ad2f864b4878",
+      "r": 45,
+      "lastmod": 1587585010596
+    },
+    {
+      "name": "ufoBlue",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        45,
+        45
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 91,
+      "imgHeight": 91,
+      "width": 91,
+      "height": 91,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0be62abb-ce27-4cca-be2b-b890977dc481.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\ufoBlue.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 91,
+      "top": 0,
+      "bottom": 91,
+      "uid": "0be62abb-ce27-4cca-be2b-b890977dc481",
+      "r": 45,
+      "lastmod": 1587585001068
+    },
+    {
+      "name": "playerShip3_red",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 75,
+      "width": 98,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i021aee3a-e023-4b08-b52d-d96ed6e9047d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip3_red.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 75,
+      "uid": "021aee3a-e023-4b08-b52d-d96ed6e9047d"
+    },
+    {
+      "name": "playerShip3_orange",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 75,
+      "width": 98,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i02390742-6d14-43e7-9a2f-508a61b17746.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip3_orange.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 75,
+      "uid": "02390742-6d14-43e7-9a2f-508a61b17746"
+    },
+    {
+      "name": "playerShip3_green",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 75,
+      "width": 98,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i58d29535-1275-44c1-8f78-86daac90fe6d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip3_green.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 75,
+      "uid": "58d29535-1275-44c1-8f78-86daac90fe6d"
+    },
+    {
+      "name": "playerShip3_blue",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 75,
+      "width": 98,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i2eb227e3-1b82-4efc-a178-be7791ce04c5.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip3_blue.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 75,
+      "uid": "2eb227e3-1b82-4efc-a178-be7791ce04c5"
+    },
+    {
+      "name": "playerShip2_red",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 112,
+      "imgHeight": 75,
+      "width": 112,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i71e78ab0-328d-4581-b2cc-1680cd07e253.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip2_red.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 112,
+      "top": 0,
+      "bottom": 75,
+      "uid": "71e78ab0-328d-4581-b2cc-1680cd07e253"
+    },
+    {
+      "name": "playerShip2_orange",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 112,
+      "imgHeight": 75,
+      "width": 112,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i84d72e5c-c021-4e3f-8490-d718957a684a.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip2_orange.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 112,
+      "top": 0,
+      "bottom": 75,
+      "uid": "84d72e5c-c021-4e3f-8490-d718957a684a"
+    },
+    {
+      "name": "playerShip1_blue",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 99,
+      "imgHeight": 75,
+      "width": 99,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i616e605b-f3cb-43be-bea5-0404ea3497af.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip1_blue.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 99,
+      "top": 0,
+      "bottom": 75,
+      "uid": "616e605b-f3cb-43be-bea5-0404ea3497af"
+    },
+    {
+      "name": "playerShip1_green",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 99,
+      "imgHeight": 75,
+      "width": 99,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i4fc979b3-c959-4a7f-8f26-462b6762f94f.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip1_green.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 99,
+      "top": 0,
+      "bottom": 75,
+      "uid": "4fc979b3-c959-4a7f-8f26-462b6762f94f"
+    },
+    {
+      "name": "playerShip1_orange",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 99,
+      "imgHeight": 75,
+      "width": 99,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0b1477b9-88c9-4cc9-a5d0-4b38baf604b7.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip1_orange.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 99,
+      "top": 0,
+      "bottom": 75,
+      "uid": "0b1477b9-88c9-4cc9-a5d0-4b38baf604b7"
+    },
+    {
+      "name": "playerShip1_red",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 99,
+      "imgHeight": 75,
+      "width": 99,
+      "height": 75,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i3067defc-38b3-4eb7-8936-5f1226deeaa3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\playerShip1_red.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 99,
+      "top": 0,
+      "bottom": 75,
+      "uid": "3067defc-38b3-4eb7-8936-5f1226deeaa3"
+    },
+    {
+      "name": "meteorBrown_big1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        50,
+        42
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 101,
+      "imgHeight": 84,
+      "width": 101,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ie0421c69-c02c-4389-b647-a611750cbbc5.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_big1.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 101,
+      "top": 0,
+      "bottom": 84,
+      "uid": "e0421c69-c02c-4389-b647-a611750cbbc5",
+      "stripPoints": [
+        {
+          "x": -31.75,
+          "y": -40.5
+        },
+        {
+          "x": 25.75,
+          "y": -41.25
+        },
+        {
+          "x": 50.25,
+          "y": -1
+        },
+        {
+          "x": 34.25,
+          "y": 31
+        },
+        {
+          "x": 10.25,
+          "y": 29.25
+        },
+        {
+          "x": -21.5,
+          "y": 40.75
+        },
+        {
+          "x": -49.75,
+          "y": 8.75
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584723208
+    },
+    {
+      "name": "meteorBrown_small1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        14,
+        14
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 28,
+      "imgHeight": 28,
+      "width": 28,
+      "height": 28,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i035f6d1a-e6a5-455b-a79c-191d31dbadb3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_small1.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 28,
+      "top": 0,
+      "bottom": 28,
+      "uid": "035f6d1a-e6a5-455b-a79c-191d31dbadb3",
+      "stripPoints": [
+        {
+          "x": 10.5,
+          "y": -12.5
+        },
+        {
+          "x": 13.5,
+          "y": 3.75
+        },
+        {
+          "x": 1.75,
+          "y": 13
+        },
+        {
+          "x": -8,
+          "y": 11
+        },
+        {
+          "x": -13,
+          "y": -4
+        },
+        {
+          "x": -6.75,
+          "y": -14
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584883478
+    },
+    {
+      "name": "meteorBrown_small2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        14,
+        13
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 29,
+      "imgHeight": 26,
+      "width": 29,
+      "height": 26,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i807817c8-37f5-4f3d-b3ee-42099bab5993.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_small2.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 29,
+      "top": 0,
+      "bottom": 26,
+      "uid": "807817c8-37f5-4f3d-b3ee-42099bab5993",
+      "r": 13,
+      "lastmod": 1587584902982
+    },
+    {
+      "name": "meteorBrown_med3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        21,
+        20
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 45,
+      "imgHeight": 40,
+      "width": 45,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if71036a2-d3d6-4feb-89a3-a33bebdfff53.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_med3.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 45,
+      "top": 0,
+      "bottom": 40,
+      "uid": "f71036a2-d3d6-4feb-89a3-a33bebdfff53",
+      "stripPoints": [
+        {
+          "x": 10.25,
+          "y": -20
+        },
+        {
+          "x": 25.25,
+          "y": -2.25
+        },
+        {
+          "x": 9.75,
+          "y": 19.25
+        },
+        {
+          "x": -6.5,
+          "y": 19.25
+        },
+        {
+          "x": -21.25,
+          "y": 5
+        },
+        {
+          "x": -14.5,
+          "y": -15
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584865267
+    },
+    {
+      "name": "meteorGrey_big2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        60,
+        49
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 120,
+      "imgHeight": 98,
+      "width": 120,
+      "height": 98,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i4935881b-161a-4a13-bd00-fdd7f88bec6e.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_big2.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 120,
+      "top": 0,
+      "bottom": 98,
+      "uid": "4935881b-161a-4a13-bd00-fdd7f88bec6e",
+      "stripPoints": [
+        {
+          "x": -38.5,
+          "y": -42.75
+        },
+        {
+          "x": 9,
+          "y": -48.5
+        },
+        {
+          "x": 60.25,
+          "y": -29.25
+        },
+        {
+          "x": 46.5,
+          "y": 17.5
+        },
+        {
+          "x": -8.5,
+          "y": 32.25
+        },
+        {
+          "x": -25.25,
+          "y": 49
+        },
+        {
+          "x": -54.75,
+          "y": 26
+        },
+        {
+          "x": -61,
+          "y": -5.5
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1588622604949
+    },
+    {
+      "name": "meteorBrown_tiny2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        8,
+        7
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 15,
+      "width": 16,
+      "height": 15,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iac51acf8-8f1f-4812-91f6-d2203c36f314.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_tiny2.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 15,
+      "uid": "ac51acf8-8f1f-4812-91f6-d2203c36f314",
+      "r": 7,
+      "lastmod": 1587584926704
+    },
+    {
+      "name": "meteorBrown_tiny1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        9,
+        9
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 18,
+      "imgHeight": 18,
+      "width": 18,
+      "height": 18,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i50ed2d78-31df-44e8-a1b0-a7395fafcd73.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_tiny1.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 18,
+      "top": 0,
+      "bottom": 18,
+      "uid": "50ed2d78-31df-44e8-a1b0-a7395fafcd73",
+      "r": 9,
+      "lastmod": 1587584912765
+    },
+    {
+      "name": "meteorBrown_big4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        49,
+        48
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 96,
+      "width": 98,
+      "height": 96,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i77c3a166-49a0-4e08-8319-00c0f796351c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_big4.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 96,
+      "uid": "77c3a166-49a0-4e08-8319-00c0f796351c",
+      "stripPoints": [
+        {
+          "x": 16.75,
+          "y": -48
+        },
+        {
+          "x": 49,
+          "y": -12.5
+        },
+        {
+          "x": 31.25,
+          "y": 42.25
+        },
+        {
+          "x": -20.75,
+          "y": 46.75
+        },
+        {
+          "x": -48.5,
+          "y": 10.75
+        },
+        {
+          "x": -35.25,
+          "y": -34.5
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584787076
+    },
+    {
+      "name": "meteorGrey_big1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 101,
+      "imgHeight": 84,
+      "width": 101,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i65419da3-7d8e-4694-a141-3fa978fad278.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_big1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 101,
+      "top": 0,
+      "bottom": 84,
+      "uid": "65419da3-7d8e-4694-a141-3fa978fad278"
+    },
+    {
+      "name": "meteorGrey_med1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 43,
+      "imgHeight": 43,
+      "width": 43,
+      "height": 43,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i89b64357-23d8-42fa-ba49-b82ccf3a77a6.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_med1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 43,
+      "top": 0,
+      "bottom": 43,
+      "uid": "89b64357-23d8-42fa-ba49-b82ccf3a77a6"
+    },
+    {
+      "name": "meteorGrey_med2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 45,
+      "imgHeight": 40,
+      "width": 45,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i74326ded-453d-4151-856d-6821fe2ef0e6.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_med2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 45,
+      "top": 0,
+      "bottom": 40,
+      "uid": "74326ded-453d-4151-856d-6821fe2ef0e6"
+    },
+    {
+      "name": "meteorGrey_big3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 89,
+      "imgHeight": 82,
+      "width": 89,
+      "height": 82,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i44291309-5653-4326-a6c5-f0acc97b0017.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_big3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 89,
+      "top": 0,
+      "bottom": 82,
+      "uid": "44291309-5653-4326-a6c5-f0acc97b0017"
+    },
+    {
+      "name": "meteorGrey_tiny1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 18,
+      "imgHeight": 18,
+      "width": 18,
+      "height": 18,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i43009540-018f-4457-bfb0-1c2c82b122c1.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_tiny1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 18,
+      "top": 0,
+      "bottom": 18,
+      "uid": "43009540-018f-4457-bfb0-1c2c82b122c1"
+    },
+    {
+      "name": "meteorBrown_big3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        44,
+        41
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 89,
+      "imgHeight": 82,
+      "width": 89,
+      "height": 82,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib5f70427-90e5-4a9a-bfbe-ba6b1b68f4b3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_big3.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 89,
+      "top": 0,
+      "bottom": 82,
+      "uid": "b5f70427-90e5-4a9a-bfbe-ba6b1b68f4b3",
+      "stripPoints": [
+        {
+          "x": 44.75,
+          "y": 0.75
+        },
+        {
+          "x": 22.5,
+          "y": 40.75
+        },
+        {
+          "x": -29,
+          "y": 32.5
+        },
+        {
+          "x": -42.25,
+          "y": 16
+        },
+        {
+          "x": -42,
+          "y": -19.25
+        },
+        {
+          "x": -10.25,
+          "y": -42.25
+        },
+        {
+          "x": 29.75,
+          "y": -28
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584762323
+    },
+    {
+      "name": "meteorGrey_small1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 28,
+      "imgHeight": 28,
+      "width": 28,
+      "height": 28,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icdf13a1c-8e22-4e08-ad2d-f50e0bdb00dc.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_small1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 28,
+      "top": 0,
+      "bottom": 28,
+      "uid": "cdf13a1c-8e22-4e08-ad2d-f50e0bdb00dc"
+    },
+    {
+      "name": "meteorGrey_small2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 29,
+      "imgHeight": 26,
+      "width": 29,
+      "height": 26,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i89314f29-1248-44d3-9ccf-0649b2f313f1.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_small2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 29,
+      "top": 0,
+      "bottom": 26,
+      "uid": "89314f29-1248-44d3-9ccf-0649b2f313f1"
+    },
+    {
+      "name": "meteorGrey_big4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 98,
+      "imgHeight": 96,
+      "width": 98,
+      "height": 96,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ie97abce7-c35a-4211-8954-d3575957ed17.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_big4.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 98,
+      "top": 0,
+      "bottom": 96,
+      "uid": "e97abce7-c35a-4211-8954-d3575957ed17"
+    },
+    {
+      "name": "meteorGrey_tiny2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 15,
+      "width": 16,
+      "height": 15,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1e2b9046-4f3d-4214-85ef-232e55291b65.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorGrey_tiny2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 15,
+      "uid": "1e2b9046-4f3d-4214-85ef-232e55291b65"
+    },
+    {
+      "name": "meteorBrown_big2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        60,
+        49
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 120,
+      "imgHeight": 98,
+      "width": 120,
+      "height": 98,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i162c8057-b826-44be-816c-aaa4432a1dcc.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_big2.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 120,
+      "top": 0,
+      "bottom": 98,
+      "uid": "162c8057-b826-44be-816c-aaa4432a1dcc",
+      "stripPoints": [
+        {
+          "x": 60,
+          "y": -30.25
+        },
+        {
+          "x": 46.5,
+          "y": 17.25
+        },
+        {
+          "x": -9.25,
+          "y": 33.25
+        },
+        {
+          "x": -26.5,
+          "y": 47.25
+        },
+        {
+          "x": -55.5,
+          "y": 25.25
+        },
+        {
+          "x": -59.25,
+          "y": -6
+        },
+        {
+          "x": -40,
+          "y": -40
+        },
+        {
+          "x": 6,
+          "y": -49.5
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584726312
+    },
+    {
+      "name": "meteorBrown_med1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        21,
+        21
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 43,
+      "imgHeight": 43,
+      "width": 43,
+      "height": 43,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ie4b9b955-1986-41a8-a1b7-b20ee05474f0.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Meteors\\meteorBrown_med1.png",
+      "shape": "strip",
+      "left": 0,
+      "right": 43,
+      "top": 0,
+      "bottom": 43,
+      "uid": "e4b9b955-1986-41a8-a1b7-b20ee05474f0",
+      "stripPoints": [
+        {
+          "x": 17.5,
+          "y": -19.5
+        },
+        {
+          "x": 23.75,
+          "y": 7.75
+        },
+        {
+          "x": 1.25,
+          "y": 21.25
+        },
+        {
+          "x": -14.75,
+          "y": 15.75
+        },
+        {
+          "x": -21,
+          "y": -5.75
+        },
+        {
+          "x": -8,
+          "y": -20.75
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1587584812582
+    },
+    {
+      "name": "enemyBlack3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 103,
+      "imgHeight": 84,
+      "width": 103,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ia130b74d-93bf-462b-abc0-ee7bc16fa242.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlack3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 103,
+      "top": 0,
+      "bottom": 84,
+      "uid": "a130b74d-93bf-462b-abc0-ee7bc16fa242"
+    },
+    {
+      "name": "enemyBlack4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        41,
+        42
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 82,
+      "imgHeight": 84,
+      "width": 82,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6e4d166a-46f4-455a-b2f6-db63d5f5215d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlack4.png",
+      "shape": "rect",
+      "left": 41,
+      "right": 41,
+      "top": 42,
+      "bottom": 42,
+      "uid": "6e4d166a-46f4-455a-b2f6-db63d5f5215d",
+      "lastmod": 1587928016837
+    },
+    {
+      "name": "enemyBlue4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 82,
+      "imgHeight": 84,
+      "width": 82,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib44b7532-d25f-4f76-bfb0-296f08c946f5.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlue4.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 82,
+      "top": 0,
+      "bottom": 84,
+      "uid": "b44b7532-d25f-4f76-bfb0-296f08c946f5"
+    },
+    {
+      "name": "enemyGreen2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 104,
+      "imgHeight": 84,
+      "width": 104,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i8912b489-b189-4d07-ac78-30c4f050b164.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyGreen2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 104,
+      "top": 0,
+      "bottom": 84,
+      "uid": "8912b489-b189-4d07-ac78-30c4f050b164"
+    },
+    {
+      "name": "enemyBlue5",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 97,
+      "imgHeight": 84,
+      "width": 97,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i8fc0f85e-f7f0-475d-b862-ac3a73fa557c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlue5.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 97,
+      "top": 0,
+      "bottom": 84,
+      "uid": "8fc0f85e-f7f0-475d-b862-ac3a73fa557c"
+    },
+    {
+      "name": "enemyRed1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 93,
+      "imgHeight": 84,
+      "width": 93,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i7b1a313e-b592-41db-8b8c-58e2809ec1a3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyRed1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 93,
+      "top": 0,
+      "bottom": 84,
+      "uid": "7b1a313e-b592-41db-8b8c-58e2809ec1a3"
+    },
+    {
+      "name": "enemyGreen5",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 97,
+      "imgHeight": 84,
+      "width": 97,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib33daeab-1ce2-4d6e-a85e-fde39d0ac660.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyGreen5.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 97,
+      "top": 0,
+      "bottom": 84,
+      "uid": "b33daeab-1ce2-4d6e-a85e-fde39d0ac660"
+    },
+    {
+      "name": "enemyGreen4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 82,
+      "imgHeight": 84,
+      "width": 82,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6b611d97-63ae-4d1a-8566-1c907541bd95.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyGreen4.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 82,
+      "top": 0,
+      "bottom": 84,
+      "uid": "6b611d97-63ae-4d1a-8566-1c907541bd95"
+    },
+    {
+      "name": "enemyGreen3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 103,
+      "imgHeight": 84,
+      "width": 103,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i9041b0ac-3bae-4eac-af50-445f1c671310.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyGreen3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 103,
+      "top": 0,
+      "bottom": 84,
+      "uid": "9041b0ac-3bae-4eac-af50-445f1c671310"
+    },
+    {
+      "name": "enemyRed2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 104,
+      "imgHeight": 84,
+      "width": 104,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i5868cd06-b41b-42f5-b09a-3edf226c7756.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyRed2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 104,
+      "top": 0,
+      "bottom": 84,
+      "uid": "5868cd06-b41b-42f5-b09a-3edf226c7756"
+    },
+    {
+      "name": "enemyGreen1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 93,
+      "imgHeight": 84,
+      "width": 93,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6b673e34-5804-423d-a99a-8e631ffddae3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyGreen1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 93,
+      "top": 0,
+      "bottom": 84,
+      "uid": "6b673e34-5804-423d-a99a-8e631ffddae3"
+    },
+    {
+      "name": "enemyRed3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 103,
+      "imgHeight": 84,
+      "width": 103,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i8ce9d38c-2fd5-406a-980a-8e127085c506.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyRed3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 103,
+      "top": 0,
+      "bottom": 84,
+      "uid": "8ce9d38c-2fd5-406a-980a-8e127085c506"
+    },
+    {
+      "name": "enemyBlack1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 93,
+      "imgHeight": 84,
+      "width": 93,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0087ade9-18d8-48ea-ba4a-a3d5006c3bb4.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlack1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 93,
+      "top": 0,
+      "bottom": 84,
+      "uid": "0087ade9-18d8-48ea-ba4a-a3d5006c3bb4"
+    },
+    {
+      "name": "enemyRed4",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 82,
+      "imgHeight": 84,
+      "width": 82,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i2fbeaf0f-0423-4b85-8859-8ab8c50bddc7.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyRed4.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 82,
+      "top": 0,
+      "bottom": 84,
+      "uid": "2fbeaf0f-0423-4b85-8859-8ab8c50bddc7"
+    },
+    {
+      "name": "enemyRed5",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 97,
+      "imgHeight": 84,
+      "width": 97,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iba84e4d4-9717-4c5d-b741-552986971725.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyRed5.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 97,
+      "top": 0,
+      "bottom": 84,
+      "uid": "ba84e4d4-9717-4c5d-b741-552986971725"
+    },
+    {
+      "name": "enemyBlack2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 104,
+      "imgHeight": 84,
+      "width": 104,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i7d3d3edf-62b5-48bb-9383-1f5cc6e9969d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlack2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 104,
+      "top": 0,
+      "bottom": 84,
+      "uid": "7d3d3edf-62b5-48bb-9383-1f5cc6e9969d"
+    },
+    {
+      "name": "enemyBlue1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 93,
+      "imgHeight": 84,
+      "width": 93,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ic02917e2-0aaa-47c7-8359-41aad749550e.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlue1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 93,
+      "top": 0,
+      "bottom": 84,
+      "uid": "c02917e2-0aaa-47c7-8359-41aad749550e"
+    },
+    {
+      "name": "enemyBlue3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 103,
+      "imgHeight": 84,
+      "width": 103,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i45164e58-61d0-4f8b-8a0d-e829607bf9ba.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlue3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 103,
+      "top": 0,
+      "bottom": 84,
+      "uid": "45164e58-61d0-4f8b-8a0d-e829607bf9ba"
+    },
+    {
+      "name": "enemyBlue2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 104,
+      "imgHeight": 84,
+      "width": 104,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iaafdee61-2d46-46bd-a3e7-e2cc5aafdb78.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlue2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 104,
+      "top": 0,
+      "bottom": 84,
+      "uid": "aafdee61-2d46-46bd-a3e7-e2cc5aafdb78"
+    },
+    {
+      "name": "enemyBlack5",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 97,
+      "imgHeight": 84,
+      "width": 97,
+      "height": 84,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i58602756-0773-41e7-9f0a-16b4680d3f71.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Enemies\\enemyBlack5.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 97,
+      "top": 0,
+      "bottom": 84,
+      "uid": "58602756-0773-41e7-9f0a-16b4680d3f71"
+    },
+    {
+      "name": "fire03",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 34,
+      "width": 14,
+      "height": 34,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i680b8b29-726d-4768-a664-e1c3fb5630b4.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire03.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 34,
+      "uid": "680b8b29-726d-4768-a664-e1c3fb5630b4"
+    },
+    {
+      "name": "fire02",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 32,
+      "width": 14,
+      "height": 32,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iceb97807-9c61-420f-8105-f03c2e7d20a0.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire02.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 32,
+      "uid": "ceb97807-9c61-420f-8105-f03c2e7d20a0"
+    },
+    {
+      "name": "fire05",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icfbee975-b94d-4cef-b49d-13b88148ed0f.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire05.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "cfbee975-b94d-4cef-b49d-13b88148ed0f"
+    },
+    {
+      "name": "fire04",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i84927695-ab69-4931-a999-c101f45a09ea.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire04.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "84927695-ab69-4931-a999-c101f45a09ea"
+    },
+    {
+      "name": "fire07",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i290459dc-a66c-4fa8-b582-faf457c06272.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire07.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "290459dc-a66c-4fa8-b582-faf457c06272"
+    },
+    {
+      "name": "fire00",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 40,
+      "width": 16,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ied82e418-8579-41d7-8ac4-3f54b0649278.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire00.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 40,
+      "uid": "ed82e418-8579-41d7-8ac4-3f54b0649278"
+    },
+    {
+      "name": "fire06",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i303732aa-0472-44c9-a6ca-1b7b580849e9.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire06.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "303732aa-0472-44c9-a6ca-1b7b580849e9"
+    },
+    {
+      "name": "fire09",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 40,
+      "width": 16,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1c554d14-1f7a-47fc-a2c8-562996f1ea30.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire09.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 40,
+      "uid": "1c554d14-1f7a-47fc-a2c8-562996f1ea30"
+    },
+    {
+      "name": "fire08",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 40,
+      "width": 16,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i638055f8-bf23-4282-9624-75c9f13ff9a3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire08.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 40,
+      "uid": "638055f8-bf23-4282-9624-75c9f13ff9a3"
+    },
+    {
+      "name": "fire10",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 40,
+      "width": 16,
+      "height": 40,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i3383a4b5-30ef-4d55-8ef6-162673434f74.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire10.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 40,
+      "uid": "3383a4b5-30ef-4d55-8ef6-162673434f74"
+    },
+    {
+      "name": "fire12",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 32,
+      "width": 14,
+      "height": 32,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i15b250bd-e0ad-4be2-99fd-31bf99d3428f.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire12.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 32,
+      "uid": "15b250bd-e0ad-4be2-99fd-31bf99d3428f"
+    },
+    {
+      "name": "fire11",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i87539bd2-5ca0-4c1c-bfd6-10e8a8ed75c2.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire11.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "87539bd2-5ca0-4c1c-bfd6-10e8a8ed75c2"
+    },
+    {
+      "name": "fire13",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 34,
+      "width": 14,
+      "height": 34,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i21dd9d70-cd45-4409-b37b-d1c4c7098c9b.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire13.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 34,
+      "uid": "21dd9d70-cd45-4409-b37b-d1c4c7098c9b"
+    },
+    {
+      "name": "fire16",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i5f59db1e-0db2-43d1-a433-9b77d3857c1e.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire16.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "5f59db1e-0db2-43d1-a433-9b77d3857c1e"
+    },
+    {
+      "name": "fire15",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i00ffdcc6-8b9f-43b8-83a5-072e59f9e81e.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire15.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "00ffdcc6-8b9f-43b8-83a5-072e59f9e81e"
+    },
+    {
+      "name": "fire17",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ibd845b4a-813e-4a18-93ab-0949719837b3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire17.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "bd845b4a-813e-4a18-93ab-0949719837b3"
+    },
+    {
+      "name": "fire14",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0bcf57cc-4dfd-4717-b7c5-4254b57e9218.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire14.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "0bcf57cc-4dfd-4717-b7c5-4254b57e9218"
+    },
+    {
+      "name": "fire19",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 41,
+      "width": 16,
+      "height": 41,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6ac77d2e-dc9f-4139-971e-63c5dda4a1a6.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire19.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 41,
+      "uid": "6ac77d2e-dc9f-4139-971e-63c5dda4a1a6"
+    },
+    {
+      "name": "fire01",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 14,
+      "imgHeight": 31,
+      "width": 14,
+      "height": 31,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i72d8b2d6-eec1-40e8-b1e8-40c8e6733a0c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire01.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 14,
+      "top": 0,
+      "bottom": 31,
+      "uid": "72d8b2d6-eec1-40e8-b1e8-40c8e6733a0c"
+    },
+    {
+      "name": "shield3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 144,
+      "imgHeight": 137,
+      "width": 144,
+      "height": 137,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if288a44f-377e-4114-be6e-70cee97c427c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\shield3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 144,
+      "top": 0,
+      "bottom": 137,
+      "uid": "f288a44f-377e-4114-be6e-70cee97c427c"
+    },
+    {
+      "name": "fire18",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 16,
+      "imgHeight": 41,
+      "width": 16,
+      "height": 41,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if049b26b-c532-4661-a6cb-71be7b794b97.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\fire18.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 16,
+      "top": 0,
+      "bottom": 41,
+      "uid": "f049b26b-c532-4661-a6cb-71be7b794b97"
+    },
+    {
+      "name": "shield2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 143,
+      "imgHeight": 119,
+      "width": 143,
+      "height": 119,
+      "offx": 0,
+      "offy": 0,
+      "origname": "idbba8d07-55c8-42e4-b24e-ca533bbf8a4a.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\shield2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 143,
+      "top": 0,
+      "bottom": 119,
+      "uid": "dbba8d07-55c8-42e4-b24e-ca533bbf8a4a"
+    },
+    {
+      "name": "star2",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 25,
+      "imgHeight": 24,
+      "width": 25,
+      "height": 24,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6d84a317-f553-4e8c-9f32-58c0f0c12226.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\star2.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 25,
+      "top": 0,
+      "bottom": 24,
+      "uid": "6d84a317-f553-4e8c-9f32-58c0f0c12226"
+    },
+    {
+      "name": "shield1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 133,
+      "imgHeight": 108,
+      "width": 133,
+      "height": 108,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib54b82d2-6965-4b1e-83f2-97e7abda2f44.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\shield1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 133,
+      "top": 0,
+      "bottom": 108,
+      "uid": "b54b82d2-6965-4b1e-83f2-97e7abda2f44",
+      "lastmod": 1587585025855
+    },
+    {
+      "name": "star1",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 25,
+      "imgHeight": 24,
+      "width": 25,
+      "height": 24,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iafc40940-e615-4749-bcab-17da983e2549.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\star1.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 25,
+      "top": 0,
+      "bottom": 24,
+      "uid": "afc40940-e615-4749-bcab-17da983e2549"
+    },
+    {
+      "name": "star3",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 24,
+      "imgHeight": 24,
+      "width": 24,
+      "height": 24,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1cdbc58d-99e5-4d61-9c17-3847abca3504.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\star3.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 24,
+      "top": 0,
+      "bottom": 24,
+      "uid": "1cdbc58d-99e5-4d61-9c17-3847abca3504"
+    },
+    {
+      "name": "speed",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 7,
+      "imgHeight": 108,
+      "width": 7,
+      "height": 108,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iae49e4d3-7add-4de2-98cc-760331f461f0.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Effects\\speed.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 7,
+      "top": 0,
+      "bottom": 108,
+      "uid": "ae49e4d3-7add-4de2-98cc-760331f461f0"
+    },
+    {
+      "name": "laserBlue01",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        4,
+        27
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 54,
+      "width": 9,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icf8fb1a7-5001-4111-8ecb-62ef8a047977.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue01.png",
+      "shape": "rect",
+      "left": 4,
+      "right": 5,
+      "top": 27,
+      "bottom": 27,
+      "uid": "cf8fb1a7-5001-4111-8ecb-62ef8a047977",
+      "lastmod": 1587692582383
+    },
+    {
+      "name": "laserBlue03",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ifd4c649a-0d29-44e7-9e3c-df9afd852e2b.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue03.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "fd4c649a-0d29-44e7-9e3c-df9afd852e2b"
+    },
+    {
+      "name": "laserBlue02",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i81bd5459-ca60-4392-942b-7648ae3f9dde.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue02.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "81bd5459-ca60-4392-942b-7648ae3f9dde"
+    },
+    {
+      "name": "laserBlue04",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6583fc36-745d-4966-a5fa-b1a9350903bf.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue04.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "6583fc36-745d-4966-a5fa-b1a9350903bf"
+    },
+    {
+      "name": "laserGreen08",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i47a5290b-d861-409f-ac99-dd99444f8ec9.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen08.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "47a5290b-d861-409f-ac99-dd99444f8ec9"
+    },
+    {
+      "name": "laserGreen10",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 54,
+      "width": 13,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i362cb83e-a4b9-4104-b390-63b6469c1a12.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen10.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 54,
+      "uid": "362cb83e-a4b9-4104-b390-63b6469c1a12"
+    },
+    {
+      "name": "laserGreen02",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i8c6d7f74-42f3-4294-93d3-d6b6d5fa8c39.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen02.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "8c6d7f74-42f3-4294-93d3-d6b6d5fa8c39"
+    },
+    {
+      "name": "laserGreen11",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 54,
+      "width": 9,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i43348ec0-a275-453c-a527-f562d5b26950.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen11.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 54,
+      "uid": "43348ec0-a275-453c-a527-f562d5b26950"
+    },
+    {
+      "name": "laserGreen09",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ife5d956e-4c3e-4bb3-9d0b-6d880ac254eb.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen09.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "fe5d956e-4c3e-4bb3-9d0b-6d880ac254eb"
+    },
+    {
+      "name": "laserGreen12",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "id7d16e4f-ee9b-4422-b85e-6c669814296d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen12.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "d7d16e4f-ee9b-4422-b85e-6c669814296d"
+    },
+    {
+      "name": "laserGreen13",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i7d81017b-b308-4cb2-91f8-94186eff4ad3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen13.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "7d81017b-b308-4cb2-91f8-94186eff4ad3"
+    },
+    {
+      "name": "laserGreen16",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 37,
+      "imgHeight": 37,
+      "width": 37,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i3a7edc71-1f78-486c-b5dc-ac3559aac0e8.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen16.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 37,
+      "top": 0,
+      "bottom": 37,
+      "uid": "3a7edc71-1f78-486c-b5dc-ac3559aac0e8"
+    },
+    {
+      "name": "laserGreen15",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i8df6e34b-3bd8-4885-9662-cb22eefc97a3.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen15.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 48,
+      "top": 0,
+      "bottom": 46,
+      "uid": "8df6e34b-3bd8-4885-9662-cb22eefc97a3"
+    },
+    {
+      "name": "laserBlue07",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icfad54e9-4375-4f08-998b-80e4f0d4f2bc.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue07.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "cfad54e9-4375-4f08-998b-80e4f0d4f2bc"
+    },
+    {
+      "name": "laserRed03",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "idbc00aae-3c9a-4317-8661-ae989b4b7adf.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed03.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "dbc00aae-3c9a-4317-8661-ae989b4b7adf"
+    },
+    {
+      "name": "laserRed04",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0c571776-f396-482a-b2e4-c0ebd4d8b5a8.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed04.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "0c571776-f396-482a-b2e4-c0ebd4d8b5a8"
+    },
+    {
+      "name": "laserBlue05",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib3788514-3271-4cd4-b7ce-974d5a396864.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue05.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "b3788514-3271-4cd4-b7ce-974d5a396864"
+    },
+    {
+      "name": "laserRed02",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icf657d32-51a8-49da-922b-28bbf4ef6e91.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed02.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "cf657d32-51a8-49da-922b-28bbf4ef6e91"
+    },
+    {
+      "name": "laserGreen14",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i9b246ded-d50e-4cd1-8ba5-48e237f1fe1d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen14.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 48,
+      "top": 0,
+      "bottom": 46,
+      "uid": "9b246ded-d50e-4cd1-8ba5-48e237f1fe1d"
+    },
+    {
+      "name": "laserRed01",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        4,
+        27
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 54,
+      "width": 9,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i15683199-55c4-4554-9077-46b37fb5ffcd.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed01.png",
+      "shape": "rect",
+      "left": 4,
+      "right": 5,
+      "top": 27,
+      "bottom": 27,
+      "uid": "15683199-55c4-4554-9077-46b37fb5ffcd",
+      "r": 4,
+      "lastmod": 1587584553227
+    },
+    {
+      "name": "laserRed05",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1341bf2d-7c0f-4bd8-9d2f-1207d0ce264e.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed05.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "1341bf2d-7c0f-4bd8-9d2f-1207d0ce264e"
+    },
+    {
+      "name": "laserRed06",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1005ce30-f862-4fd9-921a-261122e2d9fa.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed06.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "1005ce30-f862-4fd9-921a-261122e2d9fa"
+    },
+    {
+      "name": "laserRed08",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        24,
+        23
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i79ef8e1f-427d-4d5e-a50d-7fae790db254.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed08.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 48,
+      "top": 0,
+      "bottom": 46,
+      "uid": "79ef8e1f-427d-4d5e-a50d-7fae790db254",
+      "r": 19,
+      "lastmod": 1588752786091
+    },
+    {
+      "name": "laserRed09",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if97f5456-88d7-4b2a-8fd1-c7f8a23ac494.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed09.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 48,
+      "top": 0,
+      "bottom": 46,
+      "uid": "f97f5456-88d7-4b2a-8fd1-c7f8a23ac494"
+    },
+    {
+      "name": "laserRed10",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        18,
+        18
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 37,
+      "imgHeight": 36,
+      "width": 37,
+      "height": 36,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i5cb0443f-b5ec-46ef-8c7b-cb0899b23e20.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed10.png",
+      "shape": "circle",
+      "left": 0,
+      "right": 37,
+      "top": 0,
+      "bottom": 36,
+      "uid": "5cb0443f-b5ec-46ef-8c7b-cb0899b23e20",
+      "r": 15,
+      "lastmod": 1587928573801
+    },
+    {
+      "name": "laserRed12",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "iacee78a3-8ed3-4883-91f6-d87d530c3a95.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed12.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "acee78a3-8ed3-4883-91f6-d87d530c3a95"
+    },
+    {
+      "name": "laserRed15",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i037f11d8-94c9-4f20-90f2-9ac62cd0ced2.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed15.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "037f11d8-94c9-4f20-90f2-9ac62cd0ced2"
+    },
+    {
+      "name": "laserRed14",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i768a7d1e-27e0-4a16-b9f2-3f84b8057c0c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed14.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "768a7d1e-27e0-4a16-b9f2-3f84b8057c0c"
+    },
+    {
+      "name": "laserRed07",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i1190b58c-8cfe-4a0b-831d-28d91098a1b6.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed07.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "1190b58c-8cfe-4a0b-831d-28d91098a1b6"
+    },
+    {
+      "name": "laserRed11",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 37,
+      "imgHeight": 37,
+      "width": 37,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i5aee1a98-ad70-47cd-8055-6b5a15d135e9.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed11.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 37,
+      "top": 0,
+      "bottom": 37,
+      "uid": "5aee1a98-ad70-47cd-8055-6b5a15d135e9"
+    },
+    {
+      "name": "laserRed16",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 54,
+      "width": 13,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if181d9cc-47ca-4799-96e0-b268a6c2cb51.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed16.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 54,
+      "uid": "f181d9cc-47ca-4799-96e0-b268a6c2cb51",
+      "lastmod": 1587585034776
+    },
+    {
+      "name": "starBlue08",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        24,
+        23
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i64883bac-dc92-49a0-b201-71d906d23b6a.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue08.png",
+      "shape": "circle",
+      "left": 24,
+      "right": 24,
+      "top": 23,
+      "bottom": 23,
+      "uid": "64883bac-dc92-49a0-b201-71d906d23b6a",
+      "lastmod": 1588752767375,
+      "r": 23
+    },
+    {
+      "name": "laserBlue09",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 48,
+      "imgHeight": 46,
+      "width": 48,
+      "height": 46,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ibed5c130-ca08-46be-9a27-eb17fd34ddd2.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue09.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 48,
+      "top": 0,
+      "bottom": 46,
+      "uid": "bed5c130-ca08-46be-9a27-eb17fd34ddd2"
+    },
+    {
+      "name": "laserRed13",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if97c0104-3226-4235-a2ba-aae46727d6c9.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserRed13.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "f97c0104-3226-4235-a2ba-aae46727d6c9"
+    },
+    {
+      "name": "laserBlue10",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 37,
+      "imgHeight": 37,
+      "width": 37,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i207c893f-66a0-4fe5-8cf3-26a8bf95cbfb.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue10.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 37,
+      "top": 0,
+      "bottom": 37,
+      "uid": "207c893f-66a0-4fe5-8cf3-26a8bf95cbfb"
+    },
+    {
+      "name": "laserBlue06",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i7a749670-2e26-497d-ba4d-aae2c8df2c54.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue06.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "7a749670-2e26-497d-ba4d-aae2c8df2c54",
+      "lastmod": 1587584416023
+    },
+    {
+      "name": "laserBlue11",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 38,
+      "imgHeight": 37,
+      "width": 38,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "idd4d12f1-7ade-4cb2-9ee3-4847fcbb40fc.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue11.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 38,
+      "top": 0,
+      "bottom": 37,
+      "uid": "dd4d12f1-7ade-4cb2-9ee3-4847fcbb40fc"
+    },
+    {
+      "name": "laserBlue14",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i0c82e61d-084e-4dff-a3df-9d12a02cdd5a.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue14.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "0c82e61d-084e-4dff-a3df-9d12a02cdd5a"
+    },
+    {
+      "name": "laserBlue13",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i11596c0d-9faf-4d43-bf99-f3e7c6b87e1d.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue13.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "11596c0d-9faf-4d43-bf99-f3e7c6b87e1d"
+    },
+    {
+      "name": "laserBlue15",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i214e90c3-1ed6-4dbb-94c6-8f9404153aac.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue15.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "214e90c3-1ed6-4dbb-94c6-8f9404153aac"
+    },
+    {
+      "name": "laserGreen01",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 37,
+      "imgHeight": 38,
+      "width": 37,
+      "height": 38,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i6aa8be34-85df-4630-82d7-885153685eed.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen01.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 37,
+      "top": 0,
+      "bottom": 38,
+      "uid": "6aa8be34-85df-4630-82d7-885153685eed"
+    },
+    {
+      "name": "laserBlue12",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ibe857cf9-32ed-4ecb-b58d-088ed84c2fcb.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue12.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "be857cf9-32ed-4ecb-b58d-088ed84c2fcb"
+    },
+    {
+      "name": "laserGreen03",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ib2ab295a-aed0-4092-9d82-6f0640e8d125.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen03.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "b2ab295a-aed0-4092-9d82-6f0640e8d125"
+    },
+    {
+      "name": "laserBlue16",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 54,
+      "width": 13,
+      "height": 54,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ia8fff6da-5115-4771-a13c-31eda8de229f.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserBlue16.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 54,
+      "uid": "a8fff6da-5115-4771-a13c-31eda8de229f"
+    },
+    {
+      "name": "laserGreen04",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 37,
+      "width": 13,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ifed4626b-789a-41cc-b3bb-42359ec0163f.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen04.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 37,
+      "uid": "fed4626b-789a-41cc-b3bb-42359ec0163f"
+    },
+    {
+      "name": "laserGreen06",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 13,
+      "imgHeight": 57,
+      "width": 13,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i96dbf237-1b8e-4578-a5fa-a49f7d291005.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen06.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 13,
+      "top": 0,
+      "bottom": 57,
+      "uid": "96dbf237-1b8e-4578-a5fa-a49f7d291005"
+    },
+    {
+      "name": "laserGreen05",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 37,
+      "width": 9,
+      "height": 37,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ifdbe2e57-2ef5-466c-a0ea-a76b26bff523.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen05.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 37,
+      "uid": "fdbe2e57-2ef5-466c-a0ea-a76b26bff523"
+    },
+    {
+      "name": "laserGreen07",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 9,
+      "imgHeight": 57,
+      "width": 9,
+      "height": 57,
+      "offx": 0,
+      "offy": 0,
+      "origname": "idb9ad951-2f7b-46bd-b56d-cea444c034c6.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\PNG\\Lasers\\laserGreen07.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 57,
+      "uid": "db9ad951-2f7b-46bd-b56d-cea444c034c6"
+    },
+    {
+      "name": "blue",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 256,
+      "imgHeight": 256,
+      "width": 256,
+      "height": 256,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i7e202852-e221-4fb2-b9d0-86ebeaf2adf7.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\Backgrounds\\blue.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 256,
+      "top": 0,
+      "bottom": 256,
+      "uid": "7e202852-e221-4fb2-b9d0-86ebeaf2adf7",
+      "tiled": true,
+      "lastmod": 1587693153941
+    },
+    {
+      "name": "black",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 256,
+      "imgHeight": 256,
+      "width": 256,
+      "height": 256,
+      "offx": 0,
+      "offy": 0,
+      "origname": "if1a359a9-e007-4536-8f15-25c04b205643.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\Backgrounds\\black.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 256,
+      "top": 0,
+      "bottom": 256,
+      "uid": "f1a359a9-e007-4536-8f15-25c04b205643",
+      "tiled": true,
+      "lastmod": 1587693147051
+    },
+    {
+      "name": "darkPurple",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 256,
+      "imgHeight": 256,
+      "width": 256,
+      "height": 256,
+      "offx": 0,
+      "offy": 0,
+      "origname": "ia86f3529-6bd6-4816-8b97-7ed65251ff12.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\Backgrounds\\darkPurple.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 256,
+      "top": 0,
+      "bottom": 256,
+      "uid": "a86f3529-6bd6-4816-8b97-7ed65251ff12",
+      "tiled": true,
+      "lastmod": 1587693158124
+    },
+    {
+      "name": "purple",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        0,
+        0
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 256,
+      "imgHeight": 256,
+      "width": 256,
+      "height": 256,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i3d03520c-7bed-448a-92ac-2d33825b4393.png",
+      "source": "C:\\Users\\zachd\\Downloads\\spaceshooter\\Backgrounds\\purple.png",
+      "shape": "rect",
+      "left": 0,
+      "right": 256,
+      "top": 0,
+      "bottom": 256,
+      "uid": "3d03520c-7bed-448a-92ac-2d33825b4393"
+    },
+    {
+      "name": "explosion",
+      "untill": 0,
+      "grid": [
+        5,
+        4
+      ],
+      "axis": [
+        96,
+        96
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 960,
+      "imgHeight": 768,
+      "width": 192,
+      "height": 192,
+      "offx": 0,
+      "offy": 0,
+      "origname": "icde030d8-7f4c-490d-b935-2dea6efd8946.png",
+      "source": "C:\\Users\\zachd\\Downloads\\hiclipart.com.png",
+      "shape": "rect",
+      "left": 96,
+      "right": 96,
+      "top": 96,
+      "bottom": 96,
+      "uid": "cde030d8-7f4c-490d-b935-2dea6efd8946",
+      "lastmod": 1588140596577
+    },
+    {
+      "name": "thruster",
+      "untill": 0,
+      "grid": [
+        4,
+        1
+      ],
+      "axis": [
+        25,
+        200
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 200,
+      "imgHeight": 178,
+      "width": 50,
+      "height": 178,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i45eddb46-9027-493d-8e28-a39ad513fa78.png",
+      "source": "C:\\Users\\zachd\\Pictures\\thruster-spritesheet1.png",
+      "shape": "rect",
+      "left": 25,
+      "right": 25,
+      "top": 89,
+      "bottom": 89,
+      "uid": "45eddb46-9027-493d-8e28-a39ad513fa78",
+      "lastmod": 1588567332938
+    },
+    {
+      "name": "playerSpaceship",
+      "untill": 0,
+      "grid": [
+        1,
+        1
+      ],
+      "axis": [
+        256,
+        256
+      ],
+      "marginx": 0,
+      "marginy": 0,
+      "imgWidth": 512,
+      "imgHeight": 512,
+      "width": 512,
+      "height": 512,
+      "offx": 0,
+      "offy": 0,
+      "origname": "i96b8ac1a-ddf3-422f-a1fd-bf684205121c.png",
+      "source": "C:\\Users\\zachd\\Downloads\\hiclipart.com (1).png",
+      "shape": "strip",
+      "left": 0,
+      "right": 512,
+      "top": 0,
+      "bottom": 512,
+      "uid": "96b8ac1a-ddf3-422f-a1fd-bf684205121c",
+      "stripPoints": [
+        {
+          "x": 0,
+          "y": -256
+        },
+        {
+          "x": 117,
+          "y": -66
+        },
+        {
+          "x": 139,
+          "y": 40
+        },
+        {
+          "x": 200,
+          "y": 124
+        },
+        {
+          "x": 223,
+          "y": 236
+        },
+        {
+          "x": -227,
+          "y": 238
+        },
+        {
+          "x": -201,
+          "y": 129
+        },
+        {
+          "x": -141,
+          "y": 41
+        },
+        {
+          "x": -121,
+          "y": -52
+        }
+      ],
+      "closedStrip": true,
+      "lastmod": 1588567411794
+    }
+  ],
+  "skeletons": [],
+  "types": [
+    {
+      "name": "PlayerShip",
+      "depth": 1,
+      "oncreate": "// Turn on camera to follow the player\nct.room.follow = this;\nct.room.center = true;\n// Make the ship graphic much smaller\nthis.scale.x = 0.25\nthis.scale.y = 0.25\n//Set fuel level\nthis.fuel = {\n    max: 100,\n    value: 100,\n    efficiency: 100,\n    consume: function(){\n        this.value -= ct.delta / this.efficiency\n    }\n}\nthis.charge = {\n    max: 100,\n    value: 100,\n    efficiency: 20\n}\n// bring the thrust graphic in\nthis.thruster = ct.types.copy(\"Thruster\", this.x, this.y)\nthis.thruster.play()\nthis.thruster.visible = false\nthis.thruster.scale.x = 0.5\nthis.thruster.scale.y = 0.5\n// Display player position for debug info\nlet self = this\nthis.debug = {\n    lines: [],\n    text: new PIXI.Text(null, ct.styles.get(\"debug\")),\n    update: function() {\n        //update debug info\n        this.text.text = \"Ship position: x \" + self.x.toFixed() + \" y \" + self.y.toFixed() + \"\\n\"\n        this.text.text += \"Ship Fuel: \" + self.fuel.value.toFixed() + \"\\n\"\n        this.text.text += \"Ship Charge: \" + self.charge.value.toFixed() + \"\\n\"\n        // update debug position\n        this.text.x = ct.room.x + 30\n        this.text.y = ct.room.y + 30\n    }\n}\nthis.explode = function() {\n    this.thruster.visible = false\n    this.scale.x = 2\n    this.scale.y = 2\n    this.tex = \"explosion\"\n    this.play()\n    ct.sound.spawn(\"sfx_laser2\", {\n        rate: 0.5\n    })\n    ct.u.wait(333).then(()=>{\n        this.kill = true\n    })\n}\nthis.debug.update()\nct.room.addChild(this.debug.text)",
+      "onstep": "/**\n * Move the ship\n * See Settings > Edit actions panel\n * and \"Actions\" in the docs.\n */\n// Calculate position of the player\nif(ct.actions.Throttle.down && this.fuel.value > 0) {\n    this.speed = 10\n    this.direction = this.rotation + 90\n    this.fuel.consume()\n}\nif(ct.actions.Throttle.released || this.fuel.value <= 0) {\n    this.speed = 0\n    ct.sound.stop(\"Thruster\")\n    this.thruster.visible = false\n}\n//play thruster sound effect\nif(ct.actions.Throttle.pressed && this.fuel.value > 0) {\n    ct.sound.spawn(\"Thruster\")\n    this.thruster.visible = true\n    if(!ct.sound.playing(\"music\") && false) {\n        ct.sound.volume(\"music\", 0.25)\n        ct.sound.spawn(\"music\")\n    }\n}\n// Calculate player rotation\nlet degrees = ct.u.pointDirection(this.x, this.y, ct.mouse.x, ct.mouse.y)\nthis.rotation = degrees - 90\n//Time to bring out the guns\nif (ct.actions.Shoot.pressed && this.charge.value >= 10) {\n    ct.sound.spawn(\"sfx_laser1\")\n    let laser = ct.types.copy('Laser_Blue', this.x, this.y);\n    laser.rotation = this.rotation\n    laser.direction = this.rotation + 90\n    this.charge.value -= 10\n}\n// Make a drain sound effect that shows your laser is out of batteries\nif(ct.actions.Shoot.pressed && this.charge.value < 10) {\n    ct.sound.spawn(\"sfx_lose\")\n}\n// Charge ship if low\nif(this.charge.value < this.charge.max && this.fuel.value > 0) {\n    this.charge.value += (this.charge.efficiency / 60) / ct.delta\n    this.fuel.consume()\n}\n\nthis.move();",
+      "ondraw": "// Update thruster position\nthis.thruster.rotation = this.rotation + 180\nthis.thruster.x = this.x\nthis.thruster.y = this.y\n// Debug info\n//Update player position text\nthis.debug.update()\n\n",
+      "ondestroy": "// When the player dies it goes silent\nct.sound.stop(\"Thruster\")",
+      "uid": "81eef4ea-7b32-40e5-9e18-afa4c6e41609",
+      "texture": "96b8ac1a-ddf3-422f-a1fd-bf684205121c",
+      "extends": {},
+      "lastmod": 1592730049853
+    },
+    {
+      "name": "EnemyUFO",
+      "depth": 0,
+      "oncreate": "this.speed = 3;\nlet spawnSide = ct.random.dice(\"top\",\"right\",\"bottom\",\"left\")\nswitch(spawnSide) {\n        case \"top\":\n            this.x = ct.room.x + ct.random(ct.viewWidth) \n            this.y = ct.room.y - this.height\n            break\n        case \"right\":\n            this.x = ct.room.x + ct.viewWidth  + this.width\n            this.y = ct.room.y + ct.random(ct.viewHeight)\n            break\n        case \"bottom\":\n            this.x = ct.room.x + ct.random(ct.viewWidth)\n            this.y = ct.room.y + ct.viewHeight + this.height\n            break\n        case \"left\":\n            this.x = ct.room.x - this.width\n            this.y = ct.room.y + ct.random(ct.viewHeight)\n            break\n    }\n\n\nthis.direction = ct.u.pointDirection(this.x, this.y, ct.room.x + ct.viewWidth / 2, ct.room.y + ct.viewHeight / 2);",
+      "onstep": "//Remove if UFO goes offscreen\nif (this.y > ct.room.y + ct.viewHeight + this.height ||\n    this.x > ct.room.x + ct.viewWidth + this.width ||\n    this.y < ct.room.y - this.height ||\n    this.x < ct.room.x - this.width\n) {\n    this.kill = true\n    respawnUFO();\n}\n\n// Check to see if player has wrecked the UFO with a laser\nvar collided = ct.place.meet(this, this.x, this.y, 'Laser_Blue');\nif (collided && this.tex != \"explosion\") {\n    collided.kill = true;\n    this.tex = \"explosion\"\n    this.play()\n    ct.sound.spawn(\"sfx_laser2\");\n    respawnUFO();\n    ct.u.wait(333).then(()=>{\n        this.kill = true\n    })\n\n}\n\n// If UFO collides with the player the player dies\nvar playerCollide = ct.place.meet(this, this.x, this.y, \"PlayerShip\")\nif(playerCollide && this.tex != \"explosion\") {\n    playerCollide.scale.x = 2\n    playerCollide.scale.y = 2\n    playerCollide.tex = \"explosion\"\n    playerCollide.play()\n    this.tex = \"explosion\"\n    this.play()\n    ct.sound.spawn(\"sfx_laser2\");\n    ct.u.wait(333).then(()=>{\n        this.kill = true\n        playerCollide.kill = true\n    })\n    respawnUFO()\n}\n\nfunction respawnUFO() {\n    ct.types.copy(\"EnemyUFO\")\n}\n\n\n//Move UFO\nthis.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "b51424de-9038-40bd-9f02-8fcb70306fbf",
+      "texture": "81e5c749-f9d8-473a-b339-4dc3146980ae",
+      "extends": {},
+      "lastmod": 1588570815973
+    },
+    {
+      "name": "Laser_Blue",
+      "depth": 0,
+      "oncreate": "this.speed = 18;\nthis.direction = 90;",
+      "onstep": "//destroy laser when goes offscreen\nif (this.y < ct.room.y - this.height) {\n    this.kill = true;\n}\n\n//destroy laser when collides with UFO\nvar collided = ct.place.meet(this, this.x, this.y, 'EnemyUFO');\nif(collided && collided.tex != \"explosion\") {\n    // console.log(collided.tex)\n    // collided.kill = true;\n    // this.kill = true;\n}\n\nthis.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "6fb69c53-4152-4e95-9956-8c5fd46b4d8c",
+      "texture": "cf8fb1a7-5001-4111-8ecb-62ef8a047977",
+      "extends": {},
+      "lastmod": 1588572500456
+    },
+    {
+      "name": "Thruster",
+      "depth": 2,
+      "oncreate": "",
+      "onstep": "this.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "a438c7e4-717b-460e-b2af-516bfc4719ce",
+      "texture": "45eddb46-9027-493d-8e28-a39ad513fa78",
+      "extends": {},
+      "lastmod": 1588572504753
+    },
+    {
+      "name": "BigGreyAstroid2",
+      "depth": 1,
+      "oncreate": "// Set the speed and direction of astroid rotation\nthis.rotateSpeed = ct.random.range(-1,1)\nthis.speed = ct.random.range(0,2)\n// Pick a random direction a certain distance away from the player for an astroid to spawn\nlet spawnDirection = ct.random.deg()\nlet playerShip = ct.types.list[\"PlayerShip\"][0]\nlet spawnDistance = ct.u.pointDistance(playerShip.x, playerShip.y, ct.room.x, ct.room.y)\nthis.x = ct.u.lengthDirX(spawnDistance, spawnDirection) + playerShip.x\nthis.y = ct.u.lengthDirY(spawnDistance, spawnDirection) + playerShip.y\nthis.direction = ct.u.pointDirection(this.x, this.y, playerShip.x, playerShip.y)\nthis.explode = function(){\n    this.tex = \"explosion\"\n    this.play()\n    ct.sound.spawn(\"sfx_laser2\")\n    ct.u.wait(333).then(()=>{\n        this.kill = true\n    })\n}\nconsole.log(\"astroided spawned at x\", this.x, \"and y\", this.y)",
+      "onstep": "// Delete astroid and respawn astroid if too far away\nlet playerShip = ct.types.list['PlayerShip'][0]\nlet borderDistance = ct.u.pointDistance(ct.room.x, ct.room.y, playerShip.x, playerShip.y)\nlet astroidDistance = ct.u.pointDistance(this.x, this.y, playerShip.x, playerShip.y)\nif(astroidDistance > borderDistance) {\n    console.log(\"Astroid distance is\", astroidDistance, \"away from the player and the border is\", borderDistance, \"from the player.\")\n    this.kill = true\n    ct.types.copy(\"BigGreyAstroid2\")\n}\n// player ship blows up if it collides with the astroid\nlet playerCollide = ct.place.meet(this, this.x, this.y, \"PlayerShip\")\nif(playerCollide && this.tex != \"explosion\") {\n    playerCollide.explode()\n    this.explode()\n}\n// astroid blows up if hit with a laser\nlet laserCollide = ct.place.meet(this, this.x, this.y, \"Laser_Blue\")\nif(laserCollide && this.tex != \"explosion\") {\n    laserCollide.kill = true\n    this.explode()\n    ct.u.wait(ct.random.range(0,10000)).then(()=>{\n        ct.types.copy(\"BigGreyAstroid2\")\n    })\n}\nthis.move();",
+      "ondraw": "// Slowly rotate the astroid\nthis.rotation += this.rotateSpeed",
+      "ondestroy": "",
+      "uid": "008cea11-c2d6-4727-a27d-c18dc182ae0f",
+      "texture": "4935881b-161a-4a13-bd00-fdd7f88bec6e",
+      "extends": {},
+      "lastmod": 1588641361426
+    },
+    {
+      "name": "BlueStar1",
+      "depth": 1,
+      "oncreate": "",
+      "onstep": "this.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "3c8d6be8-1cab-4540-9654-a0ebf03fede5",
+      "texture": "64883bac-dc92-49a0-b201-71d906d23b6a",
+      "extends": {},
+      "lastmod": 1588623232904
+    },
+    {
+      "name": "RedStar1",
+      "depth": 1,
+      "oncreate": "",
+      "onstep": "this.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "f65effdf-5f39-48b7-9776-36fd6ea757d8",
+      "texture": "79ef8e1f-427d-4d5e-a50d-7fae790db254",
+      "extends": {},
+      "lastmod": 1588752744483
+    },
+    {
+      "name": "GreenStar1",
+      "depth": 1,
+      "oncreate": "",
+      "onstep": "this.move();",
+      "ondraw": "",
+      "ondestroy": "",
+      "uid": "40afdb21-0be4-415d-95ed-09ad79e2bd79",
+      "texture": "9b246ded-d50e-4cd1-8ba5-48e237f1fe1d",
+      "extends": {},
+      "lastmod": 1588752815207
+    }
+  ],
+  "sounds": [
+    {
+      "name": "sfx_laser1",
+      "uid": "2e4dbf35-c058-4f0c-ab31-875778be653f",
+      "origname": "s2e4dbf35-c058-4f0c-ab31-875778be653f.ogg",
+      "lastmod": 1587690954518
+    },
+    {
+      "name": "sfx_laser2",
+      "uid": "df6c18c0-63e2-451d-b6ad-482e8fb63d9b",
+      "origname": "sdf6c18c0-63e2-451d-b6ad-482e8fb63d9b.ogg",
+      "lastmod": 1587690965333
+    },
+    {
+      "name": "sfx_lose",
+      "uid": "9c7cd9d8-3c1b-4dae-9750-25aaa3d08290",
+      "origname": "s9c7cd9d8-3c1b-4dae-9750-25aaa3d08290.ogg",
+      "lastmod": 1587690978403
+    },
+    {
+      "name": "sfx_shieldDown",
+      "uid": "7cda852d-94e0-4679-90e1-2fd3895f38c7",
+      "origname": "s7cda852d-94e0-4679-90e1-2fd3895f38c7.ogg",
+      "lastmod": 1587690984567
+    },
+    {
+      "name": "sfx_shieldUp",
+      "uid": "0696cb17-d935-49ef-af19-d6c05fb84d9b",
+      "origname": "s0696cb17-d935-49ef-af19-d6c05fb84d9b.ogg",
+      "lastmod": 1587690997924
+    },
+    {
+      "name": "sfx_twoTone",
+      "uid": "d81048b9-51ed-4e64-bcc0-85477d0a664f",
+      "origname": "sd81048b9-51ed-4e64-bcc0-85477d0a664f.ogg",
+      "lastmod": 1587691004902
+    },
+    {
+      "name": "sfx_zap",
+      "uid": "d760d414-4ca8-47d1-a267-beabff4a0162",
+      "origname": "sd760d414-4ca8-47d1-a267-beabff4a0162.ogg",
+      "lastmod": 1587691014670
+    },
+    {
+      "name": "Thruster",
+      "uid": "a12a7cdb-c493-4bea-a996-d8d1050e031e",
+      "origname": "sa12a7cdb-c493-4bea-a996-d8d1050e031e.mp3",
+      "lastmod": 1587924448362
+    },
+    {
+      "name": "music",
+      "uid": "95ee5cb0-9a70-41b1-8019-193e4a16ab55",
+      "origname": "s95ee5cb0-9a70-41b1-8019-193e4a16ab55.mp3",
+      "lastmod": 1588558143906,
+      "isMusic": true
+    },
+    {
+      "name": "pop",
+      "uid": "2f2556ac-aea4-45a3-8b6c-57c022b3cf66",
+      "origname": "s2f2556ac-aea4-45a3-8b6c-57c022b3cf66.mp3",
+      "lastmod": 1588621683115
+    }
+  ],
+  "styles": [
+    {
+      "name": "debug",
+      "uid": "1c09da61-09dd-466b-b2fd-23c103925158",
+      "origname": "s23c103925158",
+      "font": {
+        "family": "sans-serif",
+        "size": 12,
+        "weight": 400,
+        "italic": false
+      },
+      "lastmod": 1588558444764,
+      "fill": {
+        "type": "0"
+      },
+      "shadow": {
+        "color": "#000000",
+        "x": 0,
+        "y": 0,
+        "blur": 6
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "name": "UFO Room",
+      "oncreate": "// Set screen mode to full screen\nct.fittoscreen.mode = \"expand\"\n\n// Spawn player\nct.types.copy(\"PlayerShip\", 0, 0)",
+      "onstep": "",
+      "ondraw": "\n",
+      "onleave": "",
+      "width": 800,
+      "height": 600,
+      "backgrounds": [
+        {
+          "depth": -1,
+          "texture": "a86f3529-6bd6-4816-8b97-7ed65251ff12",
+          "extends": {}
+        }
+      ],
+      "copies": [
+        {
+          "x": 400,
+          "y": -200,
+          "uid": "b51424de-9038-40bd-9f02-8fcb70306fbf"
+        }
+      ],
+      "tiles": [
+        {
+          "depth": -10,
+          "tiles": []
+        }
+      ],
+      "uid": "1c8eff09-851f-43cc-a59e-35de39aa4440",
+      "thumbnail": "35de39aa4440",
+      "gridX": 64,
+      "gridY": 64,
+      "lastmod": 1592729955109
+    },
+    {
+      "name": "Star System",
+      "oncreate": "// Set screen mode to full screen\nct.fittoscreen.mode = \"expand\"\n\n// Spawn player\nct.types.copy(\"PlayerShip\", 0, 0)\n\n// spawn an astroid in 1 to 10 seconds\nct.u.wait(ct.random.range(1000, 10000)).then(()=>{\n    ct.types.copy(\"BigGreyAstroid2\")\n})\n",
+      "onstep": "",
+      "ondraw": "",
+      "onleave": "",
+      "width": 800,
+      "height": 600,
+      "backgrounds": [
+        {
+          "depth": 0,
+          "texture": "7e202852-e221-4fb2-b9d0-86ebeaf2adf7",
+          "extends": {}
+        }
+      ],
+      "copies": [],
+      "tiles": [
+        {
+          "depth": -10,
+          "tiles": []
+        }
+      ],
+      "uid": "96cca3fa-1018-4f22-b4e6-c606acb366f9",
+      "thumbnail": "c606acb366f9",
+      "gridX": 64,
+      "gridY": 64,
+      "lastmod": 1592730159421
+    },
+    {
+      "name": "Galaxy",
+      "oncreate": "// Set screen mode to full screen\nct.fittoscreen.mode = \"expand\"\n\n// Generate the stars starting from the top left at room x 0 and room y 0\n// Should I check each pixel for a star or each tile\n// The benefit of using tile based is that the computer doesn't have to do as much work making the game run faster \n// rather than checking every pixel which is time consuming and labor intensive\n// So I think I'll opt for tile based\n// So I loop over the tiles on screen but I would need to run this process on every step\n// I could generate the map even outside of the view so new stars would generate on the map and I could see them\n// However I can't generate outside the map forever because it would never finish the process\n// But I can generate a portion of the view outside of the screen\n// Then render more of the map if I go to a new chunk\n// Kind of like the grid below where + is the screen and - is outside of the screen\n// [-][-][-]\n// [-][+][-]\n// [-][-][-]\nthis.chunk = {\n    x:0,\n    y:0,\n    current: {\n        x:0,\n        y:0\n    },\n    previous: {\n        x: 0,\n        y: 0\n    },\n    chunks:{},\n    size: 64,\n    count: 0,\n    drawn: {}\n}\nthis.tile = {\n    size: 32,\n    count: 0\n}\nthis.starCount = 0\nconsole.log(\"Room width is\",ct.room.width,\"and room height is\",ct.room.height,\".\")\nthis.generateChunks = function(){\n    // Set stopwatch\n    let start = Date.now()\n    for(let chunkX = this.chunk.x - 1; chunkX <= this.chunk.x + 1; chunkX++) {\n        for(let chunkY = this.chunk.y - 1; chunkY <= this.chunk.y + 1; chunkY++) {\n            //Only generate chunks that haven't been generated\n            var drawn = \"chunk\"+chunkX+\",\"+chunkY\n            if(!this.chunk.drawn[drawn]) {\n                console.log(\"generating chunk\", chunkX, \",\", chunkY)\n                for(let x = this.chunk.size * chunkX; x < this.chunk.size * (chunkX + 1); x++) {\n                    for(let y = this.chunk.size * chunkY; y < this.chunk.size * (chunkY + 1); y++) {\n                        this.generateStar(x,y)\n                        this.tile.count++\n                    }\n                }\n                this.chunk.count++ \n                this.chunk.drawn[drawn] = true\n            }\n        }\n    }\n    console.log(\"Chunks created in\",Date.now()-start,\"milliseconds.\")\n    console.log(this.chunk.count,\"chunks and\",this.starCount,\"stars created.\")\n}\nthis.generateStar = function(x,y) {\n    let chanceExists = -0.95\n    if(noise.simplex2(x, y) < chanceExists){\n        var stars = [\"BlueStar1\",\"RedStar1\",\"GreenStar1\"]\n        var star = stars[Math.floor(Math.abs(noise.simplex2(x*420, y*420))*stars.length)]\n        var starCopy = ct.types.copy(star, x*this.tile.size, y*this.tile.size)\n        // console.log(starCopy)\n        this.starCount++\n    } \n}\n// Debug text\nthis.debugLabel = new PIXI.Text('Mouse X: ' + ct.mouse.x + '\\nMouse Y: ' + ct.mouse.y, \n    ct.styles.get('debug'));\nthis.debugLabel.x = this.debugLabel.y = 20;\nthis.addChild(this.debugLabel);",
+      "onstep": "// Add new chunks if the camera enters a new chunk and delete ones too far away so no more than 9 chunks are loaded at a time\n// First find the chunk the camera top left corner is in\nthis.chunk.x = Math.floor(ct.room.x / this.tile.size / this.chunk.size)\nthis.chunk.y = Math.floor(ct.room.y / this.tile.size / this.chunk.size)\nif(!this.chunk.chunks['chunk'+this.chunk.x+','+this.chunk.y]){\n    // Generate the new chunks of the galaxy\n    this.generateChunks()\n    // Now I know that I don't need to generate chunks around this one\n    this.chunk.chunks['chunk'+this.chunk.x+','+this.chunk.y] = true\n}\n// Give planet info when hovering over planet with mouse\n",
+      "ondraw": "// Move camera\nlet speed = 10\nif(ct.actions.PanLeft.down){\n    ct.room.x -= ct.delta * speed\n}\nif(ct.actions.PanUp.down){\n    ct.room.y -= ct.delta * speed\n}\nif(ct.actions.PanRight.down){ \n    ct.room.x += ct.delta * speed\n}\nif(ct.actions.PanDown.down){\n    ct.room.y += ct.delta * speed\n}\nthis.debugLabel.text = 'Mouse X: ' + ct.mouse.x + '\\nMouse Y: ' + ct.mouse.y\nthis.debugLabel.x = ct.room.x + 20\nthis.debugLabel.y = ct.room.y + 20",
+      "onleave": "",
+      "width": 800,
+      "height": 600,
+      "backgrounds": [
+        {
+          "depth": 0,
+          "texture": "f1a359a9-e007-4536-8f15-25c04b205643",
+          "extends": {}
+        }
+      ],
+      "copies": [],
+      "tiles": [
+        {
+          "depth": -10,
+          "tiles": []
+        }
+      ],
+      "uid": "bd84d30e-2bcf-4aa0-a187-28bbc4551da4",
+      "thumbnail": "28bbc4551da4",
+      "gridX": 64,
+      "gridY": 64,
+      "lastmod": 1592729942637
+    }
+  ],
+  "actions": [
+    {
+      "name": "Throttle",
+      "methods": [
+        {
+          "code": "keyboard.ArrowUp"
+        },
+        {
+          "code": "keyboard.KeyW"
+        }
+      ]
+    },
+    {
+      "name": "Shoot",
+      "methods": [
+        {
+          "code": "mouse.Left"
+        },
+        {
+          "code": "keyboard.Space"
+        }
+      ]
+    },
+    {
+      "name": "PanLeft",
+      "methods": [
+        {
+          "code": "keyboard.ArrowLeft",
+          "multiplier": -1
+        },
+        {
+          "code": "keyboard.KeyA"
+        }
+      ]
+    },
+    {
+      "name": "PanUp",
+      "methods": [
+        {
+          "code": "keyboard.ArrowUp",
+          "multiplier": -1
+        },
+        {
+          "code": "keyboard.KeyW"
+        }
+      ]
+    },
+    {
+      "name": "PanRight",
+      "methods": [
+        {
+          "code": "keyboard.ArrowRight"
+        },
+        {
+          "code": "keyboard.KeyD"
+        }
+      ]
+    },
+    {
+      "name": "PanDown",
+      "methods": [
+        {
+          "code": "keyboard.ArrowDown"
+        },
+        {
+          "code": "keyboard.KeyS"
+        }
+      ]
+    }
+  ],
+  "starting": 0,
+  "settings": {
+    "minifyhtmlcss": false,
+    "minifyjs": false,
+    "fps": 30,
+    "version": [
+      0,
+      0,
+      0
+    ],
+    "versionPostfix": "",
+    "export": {
+      "windows64": true,
+      "windows32": true,
+      "linux64": true,
+      "linux32": true,
+      "mac64": true,
+      "debug": false
+    },
+    "title": "Starborn",
+    "author": "Zach Dyer",
+    "site": "zachdyerdesign.com",
+    "pixelatedrender": false
+  },
+  "scripts": [
+    {
+      "name": "seedrandom.js",
+      "code": "!function(f,a,c){var s,l=256,p=\"random\",d=c.pow(l,6),g=c.pow(2,52),y=2*g,h=l-1;function n(n,t,r){function e(){for(var n=u.g(6),t=d,r=0;n<g;)n=(n+r)*l,t*=l,r=u.g(1);for(;y<=n;)n/=2,t/=2,r>>>=1;return(n+r)/t}var o=[],i=j(function n(t,r){var e,o=[],i=typeof t;if(r&&\"object\"==i)for(e in t)try{o.push(n(t[e],r-1))}catch(n){}return o.length?o:\"string\"==i?t:t+\"\\0\"}((t=1==t?{entropy:!0}:t||{}).entropy?[n,S(a)]:null==n?function(){try{var n;return s&&(n=s.randomBytes)?n=n(l):(n=new Uint8Array(l),(f.crypto||f.msCrypto).getRandomValues(n)),S(n)}catch(n){var t=f.navigator,r=t&&t.plugins;return[+new Date,f,r,f.screen,S(a)]}}():n,3),o),u=new m(o);return e.int32=function(){return 0|u.g(4)},e.quick=function(){return u.g(4)/4294967296},e.double=e,j(S(u.S),a),(t.pass||r||function(n,t,r,e){return e&&(e.S&&v(e,u),n.state=function(){return v(u,{})}),r?(c[p]=n,t):n})(e,i,\"global\"in t?t.global:this==c,t.state)}function m(n){var t,r=n.length,u=this,e=0,o=u.i=u.j=0,i=u.S=[];for(r||(n=[r++]);e<l;)i[e]=e++;for(e=0;e<l;e++)i[e]=i[o=h&o+n[e%r]+(t=i[e])],i[o]=t;(u.g=function(n){for(var t,r=0,e=u.i,o=u.j,i=u.S;n--;)t=i[e=h&e+1],r=r*l+i[h&(i[e]=i[o=h&o+t])+(i[o]=t)];return u.i=e,u.j=o,r})(l)}function v(n,t){return t.i=n.i,t.j=n.j,t.S=n.S.slice(),t}function j(n,t){for(var r,e=n+\"\",o=0;o<e.length;)t[h&o]=h&(r^=19*t[h&o])+e.charCodeAt(o++);return S(t)}function S(n){return String.fromCharCode.apply(0,n)}if(j(c.random(),a),\"object\"==typeof module&&module.exports){module.exports=n;try{s=require(\"crypto\")}catch(n){}}else\"function\"==typeof define&&define.amd?define(function(){return n}):c[\"seed\"+p]=n}(\"undefined\"!=typeof self?self:this,[],Math);"
+    },
+    {
+      "name": "Star System",
+      "code": "/* Use scripts to define frequent functions and import small libraries */\nfunction StarSystem(x, y){\n    this.seed = x + y\n    this.exists = false\n    let chanceExists = -0.95\n    let scale = 1\n    if(noise.simplex2(x*scale, y*scale) < chanceExists){\n        //console.log(\"There is a star here!\")\n        this.exists = true\n        this.x = x\n        this.y = y\n    } else {\n        //console.error(\"There is no star here\")\n    }\n}"
+    },
+    {
+      "name": "Perlin",
+      "code": "/*\n * A speed-improved perlin and simplex noise algorithms for 2D.\n *\n * Based on example code by Stefan Gustavson (stegu@itn.liu.se).\n * Optimisations by Peter Eastman (peastman@drizzle.stanford.edu).\n * Better rank ordering method by Stefan Gustavson in 2012.\n * Converted to Javascript by Joseph Gentle.\n *\n * Version 2012-03-09\n *\n * This code was placed in the public domain by its original author,\n * Stefan Gustavson. You may use it as you see fit, but\n * attribution is appreciated.\n *\n */\n\n(function(global){\n  var module = global.noise = {};\n\n  function Grad(x, y, z) {\n    this.x = x; this.y = y; this.z = z;\n  }\n  \n  Grad.prototype.dot2 = function(x, y) {\n    return this.x*x + this.y*y;\n  };\n\n  Grad.prototype.dot3 = function(x, y, z) {\n    return this.x*x + this.y*y + this.z*z;\n  };\n\n  var grad3 = [new Grad(1,1,0),new Grad(-1,1,0),new Grad(1,-1,0),new Grad(-1,-1,0),\n               new Grad(1,0,1),new Grad(-1,0,1),new Grad(1,0,-1),new Grad(-1,0,-1),\n               new Grad(0,1,1),new Grad(0,-1,1),new Grad(0,1,-1),new Grad(0,-1,-1)];\n\n  var p = [151,160,137,91,90,15,\n  131,13,201,95,96,53,194,233,7,225,140,36,103,30,69,142,8,99,37,240,21,10,23,\n  190, 6,148,247,120,234,75,0,26,197,62,94,252,219,203,117,35,11,32,57,177,33,\n  88,237,149,56,87,174,20,125,136,171,168, 68,175,74,165,71,134,139,48,27,166,\n  77,146,158,231,83,111,229,122,60,211,133,230,220,105,92,41,55,46,245,40,244,\n  102,143,54, 65,25,63,161, 1,216,80,73,209,76,132,187,208, 89,18,169,200,196,\n  135,130,116,188,159,86,164,100,109,198,173,186, 3,64,52,217,226,250,124,123,\n  5,202,38,147,118,126,255,82,85,212,207,206,59,227,47,16,58,17,182,189,28,42,\n  223,183,170,213,119,248,152, 2,44,154,163, 70,221,153,101,155,167, 43,172,9,\n  129,22,39,253, 19,98,108,110,79,113,224,232,178,185, 112,104,218,246,97,228,\n  251,34,242,193,238,210,144,12,191,179,162,241, 81,51,145,235,249,14,239,107,\n  49,192,214, 31,181,199,106,157,184, 84,204,176,115,121,50,45,127, 4,150,254,\n  138,236,205,93,222,114,67,29,24,72,243,141,128,195,78,66,215,61,156,180];\n  // To remove the need for index wrapping, double the permutation table length\n  var perm = new Array(512);\n  var gradP = new Array(512);\n\n  // This isn't a very good seeding function, but it works ok. It supports 2^16\n  // different seed values. Write something better if you need more seeds.\n  module.seed = function(seed) {\n    if(seed > 0 && seed < 1) {\n      // Scale the seed out\n      seed *= 65536;\n    }\n\n    seed = Math.floor(seed);\n    if(seed < 256) {\n      seed |= seed << 8;\n    }\n\n    for(var i = 0; i < 256; i++) {\n      var v;\n      if (i & 1) {\n        v = p[i] ^ (seed & 255);\n      } else {\n        v = p[i] ^ ((seed>>8) & 255);\n      }\n\n      perm[i] = perm[i + 256] = v;\n      gradP[i] = gradP[i + 256] = grad3[v % 12];\n    }\n  };\n\n  module.seed(0);\n\n  /*\n  for(var i=0; i<256; i++) {\n    perm[i] = perm[i + 256] = p[i];\n    gradP[i] = gradP[i + 256] = grad3[perm[i] % 12];\n  }*/\n\n  // Skewing and unskewing factors for 2, 3, and 4 dimensions\n  var F2 = 0.5*(Math.sqrt(3)-1);\n  var G2 = (3-Math.sqrt(3))/6;\n\n  var F3 = 1/3;\n  var G3 = 1/6;\n\n  // 2D simplex noise\n  module.simplex2 = function(xin, yin) {\n    var n0, n1, n2; // Noise contributions from the three corners\n    // Skew the input space to determine which simplex cell we're in\n    var s = (xin+yin)*F2; // Hairy factor for 2D\n    var i = Math.floor(xin+s);\n    var j = Math.floor(yin+s);\n    var t = (i+j)*G2;\n    var x0 = xin-i+t; // The x,y distances from the cell origin, unskewed.\n    var y0 = yin-j+t;\n    // For the 2D case, the simplex shape is an equilateral triangle.\n    // Determine which simplex we are in.\n    var i1, j1; // Offsets for second (middle) corner of simplex in (i,j) coords\n    if(x0>y0) { // lower triangle, XY order: (0,0)->(1,0)->(1,1)\n      i1=1; j1=0;\n    } else {    // upper triangle, YX order: (0,0)->(0,1)->(1,1)\n      i1=0; j1=1;\n    }\n    // A step of (1,0) in (i,j) means a step of (1-c,-c) in (x,y), and\n    // a step of (0,1) in (i,j) means a step of (-c,1-c) in (x,y), where\n    // c = (3-sqrt(3))/6\n    var x1 = x0 - i1 + G2; // Offsets for middle corner in (x,y) unskewed coords\n    var y1 = y0 - j1 + G2;\n    var x2 = x0 - 1 + 2 * G2; // Offsets for last corner in (x,y) unskewed coords\n    var y2 = y0 - 1 + 2 * G2;\n    // Work out the hashed gradient indices of the three simplex corners\n    i &= 255;\n    j &= 255;\n    var gi0 = gradP[i+perm[j]];\n    var gi1 = gradP[i+i1+perm[j+j1]];\n    var gi2 = gradP[i+1+perm[j+1]];\n    // Calculate the contribution from the three corners\n    var t0 = 0.5 - x0*x0-y0*y0;\n    if(t0<0) {\n      n0 = 0;\n    } else {\n      t0 *= t0;\n      n0 = t0 * t0 * gi0.dot2(x0, y0);  // (x,y) of grad3 used for 2D gradient\n    }\n    var t1 = 0.5 - x1*x1-y1*y1;\n    if(t1<0) {\n      n1 = 0;\n    } else {\n      t1 *= t1;\n      n1 = t1 * t1 * gi1.dot2(x1, y1);\n    }\n    var t2 = 0.5 - x2*x2-y2*y2;\n    if(t2<0) {\n      n2 = 0;\n    } else {\n      t2 *= t2;\n      n2 = t2 * t2 * gi2.dot2(x2, y2);\n    }\n    // Add contributions from each corner to get the final noise value.\n    // The result is scaled to return values in the interval [-1,1].\n    return 70 * (n0 + n1 + n2);\n  };\n\n  // 3D simplex noise\n  module.simplex3 = function(xin, yin, zin) {\n    var n0, n1, n2, n3; // Noise contributions from the four corners\n\n    // Skew the input space to determine which simplex cell we're in\n    var s = (xin+yin+zin)*F3; // Hairy factor for 2D\n    var i = Math.floor(xin+s);\n    var j = Math.floor(yin+s);\n    var k = Math.floor(zin+s);\n\n    var t = (i+j+k)*G3;\n    var x0 = xin-i+t; // The x,y distances from the cell origin, unskewed.\n    var y0 = yin-j+t;\n    var z0 = zin-k+t;\n\n    // For the 3D case, the simplex shape is a slightly irregular tetrahedron.\n    // Determine which simplex we are in.\n    var i1, j1, k1; // Offsets for second corner of simplex in (i,j,k) coords\n    var i2, j2, k2; // Offsets for third corner of simplex in (i,j,k) coords\n    if(x0 >= y0) {\n      if(y0 >= z0)      { i1=1; j1=0; k1=0; i2=1; j2=1; k2=0; }\n      else if(x0 >= z0) { i1=1; j1=0; k1=0; i2=1; j2=0; k2=1; }\n      else              { i1=0; j1=0; k1=1; i2=1; j2=0; k2=1; }\n    } else {\n      if(y0 < z0)      { i1=0; j1=0; k1=1; i2=0; j2=1; k2=1; }\n      else if(x0 < z0) { i1=0; j1=1; k1=0; i2=0; j2=1; k2=1; }\n      else             { i1=0; j1=1; k1=0; i2=1; j2=1; k2=0; }\n    }\n    // A step of (1,0,0) in (i,j,k) means a step of (1-c,-c,-c) in (x,y,z),\n    // a step of (0,1,0) in (i,j,k) means a step of (-c,1-c,-c) in (x,y,z), and\n    // a step of (0,0,1) in (i,j,k) means a step of (-c,-c,1-c) in (x,y,z), where\n    // c = 1/6.\n    var x1 = x0 - i1 + G3; // Offsets for second corner\n    var y1 = y0 - j1 + G3;\n    var z1 = z0 - k1 + G3;\n\n    var x2 = x0 - i2 + 2 * G3; // Offsets for third corner\n    var y2 = y0 - j2 + 2 * G3;\n    var z2 = z0 - k2 + 2 * G3;\n\n    var x3 = x0 - 1 + 3 * G3; // Offsets for fourth corner\n    var y3 = y0 - 1 + 3 * G3;\n    var z3 = z0 - 1 + 3 * G3;\n\n    // Work out the hashed gradient indices of the four simplex corners\n    i &= 255;\n    j &= 255;\n    k &= 255;\n    var gi0 = gradP[i+   perm[j+   perm[k   ]]];\n    var gi1 = gradP[i+i1+perm[j+j1+perm[k+k1]]];\n    var gi2 = gradP[i+i2+perm[j+j2+perm[k+k2]]];\n    var gi3 = gradP[i+ 1+perm[j+ 1+perm[k+ 1]]];\n\n    // Calculate the contribution from the four corners\n    var t0 = 0.6 - x0*x0 - y0*y0 - z0*z0;\n    if(t0<0) {\n      n0 = 0;\n    } else {\n      t0 *= t0;\n      n0 = t0 * t0 * gi0.dot3(x0, y0, z0);  // (x,y) of grad3 used for 2D gradient\n    }\n    var t1 = 0.6 - x1*x1 - y1*y1 - z1*z1;\n    if(t1<0) {\n      n1 = 0;\n    } else {\n      t1 *= t1;\n      n1 = t1 * t1 * gi1.dot3(x1, y1, z1);\n    }\n    var t2 = 0.6 - x2*x2 - y2*y2 - z2*z2;\n    if(t2<0) {\n      n2 = 0;\n    } else {\n      t2 *= t2;\n      n2 = t2 * t2 * gi2.dot3(x2, y2, z2);\n    }\n    var t3 = 0.6 - x3*x3 - y3*y3 - z3*z3;\n    if(t3<0) {\n      n3 = 0;\n    } else {\n      t3 *= t3;\n      n3 = t3 * t3 * gi3.dot3(x3, y3, z3);\n    }\n    // Add contributions from each corner to get the final noise value.\n    // The result is scaled to return values in the interval [-1,1].\n    return 32 * (n0 + n1 + n2 + n3);\n\n  };\n\n  // ##### Perlin noise stuff\n\n  function fade(t) {\n    return t*t*t*(t*(t*6-15)+10);\n  }\n\n  function lerp(a, b, t) {\n    return (1-t)*a + t*b;\n  }\n\n  // 2D Perlin Noise\n  module.perlin2 = function(x, y) {\n    // Find unit grid cell containing point\n    var X = Math.floor(x), Y = Math.floor(y);\n    // Get relative xy coordinates of point within that cell\n    x = x - X; y = y - Y;\n    // Wrap the integer cells at 255 (smaller integer period can be introduced here)\n    X = X & 255; Y = Y & 255;\n\n    // Calculate noise contributions from each of the four corners\n    var n00 = gradP[X+perm[Y]].dot2(x, y);\n    var n01 = gradP[X+perm[Y+1]].dot2(x, y-1);\n    var n10 = gradP[X+1+perm[Y]].dot2(x-1, y);\n    var n11 = gradP[X+1+perm[Y+1]].dot2(x-1, y-1);\n\n    // Compute the fade curve value for x\n    var u = fade(x);\n\n    // Interpolate the four results\n    return lerp(\n        lerp(n00, n10, u),\n        lerp(n01, n11, u),\n       fade(y));\n  };\n\n  // 3D Perlin Noise\n  module.perlin3 = function(x, y, z) {\n    // Find unit grid cell containing point\n    var X = Math.floor(x), Y = Math.floor(y), Z = Math.floor(z);\n    // Get relative xyz coordinates of point within that cell\n    x = x - X; y = y - Y; z = z - Z;\n    // Wrap the integer cells at 255 (smaller integer period can be introduced here)\n    X = X & 255; Y = Y & 255; Z = Z & 255;\n\n    // Calculate noise contributions from each of the eight corners\n    var n000 = gradP[X+  perm[Y+  perm[Z  ]]].dot3(x,   y,     z);\n    var n001 = gradP[X+  perm[Y+  perm[Z+1]]].dot3(x,   y,   z-1);\n    var n010 = gradP[X+  perm[Y+1+perm[Z  ]]].dot3(x,   y-1,   z);\n    var n011 = gradP[X+  perm[Y+1+perm[Z+1]]].dot3(x,   y-1, z-1);\n    var n100 = gradP[X+1+perm[Y+  perm[Z  ]]].dot3(x-1,   y,   z);\n    var n101 = gradP[X+1+perm[Y+  perm[Z+1]]].dot3(x-1,   y, z-1);\n    var n110 = gradP[X+1+perm[Y+1+perm[Z  ]]].dot3(x-1, y-1,   z);\n    var n111 = gradP[X+1+perm[Y+1+perm[Z+1]]].dot3(x-1, y-1, z-1);\n\n    // Compute the fade curve value for x, y, z\n    var u = fade(x);\n    var v = fade(y);\n    var w = fade(z);\n\n    // Interpolate\n    return lerp(\n        lerp(\n          lerp(n000, n100, u),\n          lerp(n001, n101, u), w),\n        lerp(\n          lerp(n010, n110, u),\n          lerp(n011, n111, u), w),\n       v);\n  };\n\n})(this);\nnoise.seed(1)"
+    }
+  ],
+  "fonts": [],
+  "styletick": null,
+  "startroom": "bd84d30e-2bcf-4aa0-a187-28bbc4551da4"
+}
